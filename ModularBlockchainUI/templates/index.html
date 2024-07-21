@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modular Blockchain</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header text-center">
+            <h1>Modular Blockchain</h1>
+            <p>Welcome to your blockchain application. Choose an action below to proceed.</p>
+        </div>
+        <div class = "btn-container">
+            <a href="/mine.html" class="btn btn-primary btn-lg">Mine <i class="fas fa-cogs"></i></a>
+            <a href="/transaction.html" class="btn btn-success btn-lg">New Transaction <i class="fas fa-plus"></i></a>
+            <a href="/chain.html" class="btn btn-info btn-lg">View Chain <i class="fas fa-list"></i></a>
+        </div>
+        
+    </div>
+</body>
+</html>
